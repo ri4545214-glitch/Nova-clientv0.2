@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "novaclient",
+  "version": "${version}",
+  "name": "Nova Client",
+  "description": "Client-side utility mod with a Right Shift GUI.",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.nova.NovaClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.10",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
